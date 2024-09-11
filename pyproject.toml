@@ -1,0 +1,20 @@
+[project]
+name = "cronexpr"
+version = "0.30.0"
+
+description = "Python bindings for cronexpr using supertinycron"
+requires-python = ">=3.8"
+readme = "README.md"
+license = "Apache-2.0"
+
+[project.urls]
+"Homepage" = "https://github.com/CodyRay/pycronexpr"
+"Bug Tracker" = "https://github.com/CodyRay/pycronexpr/issues"
+"Changelog" = "https://github.com/CodyRay/pycronexpr/releases"
+
+[build-system]
+requires = ["scikit-build-core", "pybind11"]
+build-backend = "scikit_build_core.build"
+
+[tool.scikit-build]
+build.verbose = true
